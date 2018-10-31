@@ -1,3 +1,3 @@
-FROM rust:alpine
+FROM alpine
 
-RUN apk add libpcap-dev
+RUN apk add rust libpcap-dev

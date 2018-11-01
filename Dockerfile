@@ -1,3 +1,3 @@
 FROM alpine
 
-RUN apk add rust cargo libpcap-dev
+RUN apk add rust cargo openssl-dev libpcap-dev

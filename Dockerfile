@@ -1,3 +1,3 @@
 FROM alpine:edge
 
-RUN apk add rust cargo openssl-dev libpcap-dev
+RUN apk add rust cargo openssl-dev libpcap-dev clang-dev
